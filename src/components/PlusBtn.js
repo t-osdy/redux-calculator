@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { PropsTypes } from 'react'
 
-const PlusBtn = () => (
+const PlusBtn = ({ onClick }) => (
   <button onClick={ onClick }>+</button>
 )
 

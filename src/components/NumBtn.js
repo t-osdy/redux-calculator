@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PropsTypes } from 'react'
 
 const NumBtn = ({n, onClick}) => (
   <button onClick={onClick}>{n}</button>
