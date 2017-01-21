@@ -1,11 +1,11 @@
-import React, { PropsTypes } from 'react'
+import React, { PropTypes } from 'react'
 
 const PlusBtn = ({ onClick }) => (
   <button onClick={ onClick }>+</button>
 )
 
-PlusBtn.PropsTypes = {
-  onClick: PropsTypes.func.isRequired,
+PlusBtn.PropTypes = {
+  onClick: PropTypes.func.isRequired,
 }
 
 export default PlusBtn
