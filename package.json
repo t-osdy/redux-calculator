@@ -1,7 +1,7 @@
 {
   "name": "redux-calculator",
   "version": "0.1.0",
-  "hogepage": "https://t-osdy.github.io/redux-calculator",
+  "hogepage": "http://t-osdy.github.io/redux-calculator",
   "private": true,
   "devDependencies": {
     "gh-pages": "^0.12.0",
