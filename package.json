@@ -1,11 +1,11 @@
 {
   "name": "redux-calculator",
   "version": "0.1.0",
-  "hogepage": "https://t-osdy.github.io/redux-calculator/",
   "private": true,
+  "homepage": "http://t-osdy.github.io/redux-calculator",
   "devDependencies": {
-    "gh-pages": "^0.12.0",
-    "react-scripts": "0.8.5"
+    "github-pages": "^3.0.2",
+    "react-scripts": "0.8.4"
   },
   "dependencies": {
     "react": "^15.4.2",
