@@ -40,7 +40,7 @@ class Calculator extends Component {
         <div>
           <NumBtn n={0} onClick={() => actions.onNumClick(0)}/>
           <PlusBtn onClick={actions.onPlusClick}/>
-          <MinusBtn onClick={actions.onMinusBtn}/>
+          <MinusBtn onClick={actions.onMinusClick}/>
         </div>
         <div>
           <Result result={calculator.showingResult ? calculator.resultValue : calculator.inputValue}/>
