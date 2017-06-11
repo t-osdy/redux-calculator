@@ -5,10 +5,10 @@ export const onNumClick = (number) =>({
   number,
 })
 
-export const onPlusClick = () =>({
-  type: actionTypes.PLUS
+export const onPlusClick = () => ({
+  type: actionTypes.PLUS,
 })
 
-export const onMinusClick = () =>({
-  type: actionTypes.MINUS
+export const onMinusClick = () => ({
+  type: actionTypes.MINUS,
 })
