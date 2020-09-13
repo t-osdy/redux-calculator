@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux'
-import calculator from  './calculator'
+import { combineReducers } from 'redux';
+import calculator from './calculator';
 
 const reducer = combineReducers({
-  calculator
-})
+  calculator,
+});
 
-export default reducer
+export default reducer;
